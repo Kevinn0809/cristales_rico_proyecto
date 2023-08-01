@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio | Cristales Rico</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg colornav px-3">
+    <div class="container-fluid">
+      <button class="btn me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample">
+        <i class="fa-solid fa-bars fa-lg text-white"></i>
+      </button>
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="" width="85" height="auto"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <form class="d-flex justify-content-center align-items-center h-100 search" role="search">
+              <div class="input-group size-search">
+                <input type="text" class="form-control rounded-start-2 w-100" placeholder="Buscar...">
+                <span class="input-group-text bg-secondary rounded-end-2 border-0 me-3" id="basic-addon2">
+                  <i class="fa-solid fa-magnifying-glass text-white"></i>
+                </span>
+              </div>
+            </form>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-end">
+          <button class="btn navIco">
+            <a href="#"><i class="fa-solid fa-heart text-white"></i></a>
+          </button>
+          <button class="btn navIco">
+            <a href="iniciar-sesion.html"><i class="fa-solid fa-user text-white"></i></a>
+          </button>
+          <button class="btn navIco">
+            <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping text-white"></i></a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid ps-5 pe-5 pt-1">
+    <div id="cardmesadetailIndicators" class="carousel slide">
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+          <img src="assets/img/carrusel/1266x400.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrusel/1266x400.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrusel/1266x400.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev prevLeft" type="button" data-bs-target="#cardmesadetailIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next nextRight" type="button" data-bs-target="#cardmesadetailIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <section class="categoriasHome mt-4 mb-1 d-flex justify-content-center align-items-center">
+        <div class="col-lg-2 col-sm-6 w-auto">
+          <img src="assets/img/categorias/espejos.png" class="mb-1" alt="Marcos">
+          <p class="ps-2 d-flex align-items-center">Marcos</p>
+        </div>
+        <div class="col-lg-2 col-sm-6 w-auto">
+          <img src="assets/img/categorias/mesas.png" class="mb-1" alt="Mesas">
+          <p class="ps-3 d-flex align-items-center">Mesas</p>
+        </div>
+        <div class="col-lg-2 col-sm-6 w-auto">
+          <img src="assets/img/categorias/nocheros.png" class="mb-1" alt="Nocheros">
+          <p class="d-flex align-items-center">Nocheros</p>
+        </div>
+        <div class="col-lg-2 col-sm-6 w-auto">
+          <img src="assets/img/categorias/pedestales.png" class="mb-1" alt="Pedestales">
+          <p class="d-flex align-items-center">Pedestales</p>
+        </div>
+        <div class="col-lg-2 col-sm-6 w-auto">
+          <img src="assets/img/categorias/paredes.png" class="mb-1" alt="Paredes">
+          <p class="ps-2 d-flex align-items-center">Paredes</p>
+        </div>
+        <div class="col-lg-2 col-sm-6 w-auto">
+          <img src="assets/img/categorias/consola.png" class="mb-1" alt="Recibidor">
+          <p class="ps-2 d-flex align-items-center" id="coreProductos">Recibidor</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="container">
+    <sec class="productcor row justify-content-evenly h-100">
+      <div class="card px-0 col-4 crr1">
+        <div id="cardmesadetail" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/img/Marco_Piramide2x1.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/Marco_Piramide2x1left.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/Marco_piramide2x1upside.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#cardmesadetail" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cardmesadetail" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Marco Piramide Bronce 2Mts x 1Mts</h3>
+          <p class="carde-text">$800.000 COP</p>
+          <!-- Button trigger modal -->
+          <button class="cssbuttons-io-button mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal"> Ver más
+            <div class="iconBtnProdu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor"
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+              </svg>
+            </div>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="cardmesadetail7" class="carousel slide crr7">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/img/Marco_Piramide2x1.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/Marco_Piramide2x1left.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/Marco_piramide2x1upside.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev corePrev" type="button" data-bs-target="#cardmesadetail7"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next coreNext" type="button" data-bs-target="#cardmesadetail7"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h3 class="modal-title fs-5" id="exampleModalLabel">Marco Piramide Bronce 2mts x 1Mts</h3>
+                  <p> Precio : $950.000 COP</p>
+                  <p>
+                  <h4>Detalles</h4>
+                  <br> Marco estructurado en madera MDF enchapado en espejo de color Bronce, acabados y terminaciones
+                  excelentes. perfecto para todas las zonas del hogar con un toque de elegancia.
+                  <br>Fabricamos sobre medidas Generales o especificas.
+                  </p>
+                  <section class=" d-flex justify-content-center m-3">
+                    <span class=" d-flex">
+                      <p class=" w-25 my-auto mx-1">Color</p>
+                      <select class="form-select brcolor1 mx-3" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">Bronce</option>
+                        <option value="2">Gris</option>
+                        <option value="3">Natural\Plata</option>
+                        <option value="4">Rosa</option>
+                      </select>
+                      <p class="w-25 px-1 mx-1 my-auto">Cantidad</p>
+                      <input type="number" class="cantidad1 mx-3" min="0">
+                    </span>
+                  </section>
+                  <button type="button" class="btn btn-primary m-2">AÑADIR AL CARRITO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+
+      <div class="card px-0 col-4 crr2">
+        <div id="cardmesadetail2" class="carousel slide">
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+              <img src="/assets/img/Mesa_centro1.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/Mesa_centro1left.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/Mesa_centro1upside.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#cardmesadetail2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cardmesadetail2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Mesa de centro Atlas Rosa-gris .80x.80 Mts</h3>
+          <p class="card-text">$750.000 COP</p>
+
+
+          <!-- Button trigger modal -->
+          <button class="cssbuttons-io-button mt-4" data-bs-toggle="modal" data-bs-target="#productoModal2M"> Ver más
+            <div class="iconBtnProdu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor"
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+              </svg>
+            </div>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="productoModal2M" tabindex="-1" aria-labelledby="exampleModal2MLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="cardmesadetail8" class="carousel slide detamesa">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/img/Mesa_centro1.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/Mesa_centro1left.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/Mesa_centro1upside.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev corePrev" type="button" data-bs-target="#cardmesadetail8"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next coreNext" type="button" data-bs-target="#cardmesadetail8"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h3 class="modal-title fs-5" id="exampleModalLabel">Mesa de centro Atlas Rosa-gris 0.80x0.80 Mts</h3>
+                  <p> Precio : $750.000 COP</p>
+                  <p>
+                  <h4>Detalles</h4>
+                  <br> Mesa de centro para sala con diseño en la parte superior de cuadros con pulido biselado,
+                  terminaciones de pulido y brillado para dar un aspecto elegante, Puedes escoger una combinacion de
+                  colores de espejo o un solo para la mesa.
+                  <br>Fabricamos sobre medidas Generales o especificas.
+                  <br> Altura de la mesa : 35 cm.
+                  </p>
+                  <section class=" d-flex justify-content-center m-3">
+                    <span class=" d-flex">
+                      <p class=" w-25 my-auto mx-1">Color</p>
+                      <select class="form-select brcolor1 mx-3" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">Rosa-gris</option>
+                        <option value="2">Gris-Natural\Plata</option>
+                        <option value="3">Bronce-Gris</option>
+                        <option value="4">Natural</option>
+                        <option value="5">Gris</option>
+                        <option value="6">Rosa</option>
+                      </select>
+                      <p class="w-25 px-1 mx-1 my-auto">Cantidad</p>
+                      <input type="number" class="cantidad1 mx-3" min="0">
+                    </span>
+                  </section>
+                  <button type="button" class="btn btn-primary m-2">AÑADIR AL CARRITO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+
+      <div class="card px-0 col-4 crr3">
+        <div id="cardmesadetailIndicators3" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/img/consola_monitofront.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/consola_monitoleft.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/consola_monitoright.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#cardmesadetailIndicators3"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cardmesadetailIndicators3"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Recibidor Moñito Bronce 1.20 Mts</h3>
+          <p class="card-text">$950.000 COP</p>
+          <!-- Button trigger modal -->
+          <button class="cssbuttons-io-button mt-4" data-bs-toggle="modal" data-bs-target="#productoModal3C"> Ver más
+            <div class="iconBtnProdu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor"
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+              </svg>
+            </div>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="productoModal3C" tabindex="-1" aria-labelledby="productoModal3C"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="detailconsola9" class="carousel slide detaconsola">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/img/consola_monitofront.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/consola_monitoleft.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/consola_monitoright.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev corePrev" type="button" data-bs-target="#detailconsola9"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next coreNext" type="button" data-bs-target="#detailconsola9"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h3 class="modal-title fs-5" id="productoModal3C">Recibidor Moñito Bronce 1.20 Mts</h3>
+                  <p> Precio : $950.000 COP</p>
+                  <p>
+                  <h4>Detalles</h4>
+                  <br> Recibidor tipo consola con diseño Moñito, trabajando curvas y rectas para dar amplitud y belleza
+                  al espacio, terminados en pulido brillante.
+                  <br>Fabricamos sobre medidas Generales o especificas.
+                  <br>Dimensiones : 0.90 Mts altura x 1.20Mts Largo x 0.41 Mts de fondo.
+                  </p>
+                  <section class=" d-flex justify-content-center m-3">
+                    <span class=" d-flex">
+                      <p class=" w-25 my-auto mx-1">Color</p>
+                      <select class="form-select brcolor1 mx-3" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">Bronce</option>
+                        <option value="2">Natural\Plata</option>
+                        <option value="3">Gris</option>
+                        <option value="4">Rosa</option>
+                      </select>
+                      <p class="w-25 px-1 mx-1 my-auto">Cantidad</p>
+                      <input type="number" class="cantidad1 mx-3" min="0">
+                    </span>
+                  </section>
+                  <button type="button" class="btn btn-primary m-2">AÑADIR AL CARRITO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card px-0 col-4 crr4">
+        <div id="cardmesadetailIndicators4" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/img/pedestal-damasco.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/pedestal-damascfront.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/pedestal_damascright.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#cardmesadetailIndicators4"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cardmesadetailIndicators4"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Pedestal Damasco Bronce .90 Mt </h3>
+          <p class="card-text">$750.000 COP</p>
+          <!-- Button trigger modal -->
+          <button class="cssbuttons-io-button mt-4" data-bs-toggle="modal" data-bs-target="#productpedestal"> Ver más
+            <div class="iconBtnProdu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor"
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+              </svg>
+            </div>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="productpedestal" tabindex="-1" aria-labelledby="productpedestal"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="detailpedestal10" class="carousel slide detapedestal">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/img/pedestal-damasco.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/pedestal-damascfront.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/pedestal_damascright.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev corePrev" type="button" data-bs-target="#detailpedestal10"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next coreNext" type="button" data-bs-target="#detailpedestal10"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h3 class="modal-title fs-5" id="productpedestal">Pedestal Damasco Bronce .90 Mts</h3>
+                  <p> Precio : $750.000 COP</p>
+                  <p>
+                  <h4>Detalles</h4>
+                  <br> Pedestal diseño Damasco en espejo Bronce con el epsejo de la tapa superior con pulido bisel,
+                  terminacion pulido brillante.
+                  <br>Fabricamos sobre medidas Generales o especificas.
+                  <br>Dimensiones : 0.90 Mts altura x 0.40 Mts Ancho x 0.40 Mts Largo.
+                  </p>
+                  <section class=" d-flex justify-content-center m-3">
+                    <span class=" d-flex">
+                      <p class=" w-25 my-auto mx-1">Color</p>
+                      <select class="form-select brcolor1 mx-3" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">Bronce</option>
+                        <option value="2">Natural\Plata</option>
+                        <option value="3">Gris</option>
+                        <option value="4">Rosa</option>
+                      </select>
+                      <p class="w-25 px-1 mx-1 my-auto">Cantidad</p>
+                      <input type="number" class="cantidad1 mx-3" min="0">
+                    </span>
+                  </section>
+                  <button type="button" class="btn btn-primary m-2">AÑADIR AL CARRITO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card px-0 col-4 crr5">
+        <div id="cardmesadetailIndicators5" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/img/pared_natfront.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/Pared_natright.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/pared_natleft.jpg" class="d-block w-100 rounded-top-2" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#cardmesadetailIndicators5"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cardmesadetailIndicators5"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Pared de espejo Bronce Biselado 3Mts x 230 Mts </h3>
+          <p class="card-text">$1.800.000 COP</p>
+          <!-- Button trigger modal -->
+          <button class="cssbuttons-io-button mt-4" data-bs-toggle="modal" data-bs-target="#productpared"> Ver más
+            <div class="iconBtnProdu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor"
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+              </svg>
+            </div>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="productpared" tabindex="-1" aria-labelledby="productpared" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="detailpared11" class="carousel slide detapared">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/img/pared_natfront.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/Pared_natright.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/pared_natleft.jpg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev corePrev" type="button" data-bs-target="#detailpared11"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next coreNext" type="button" data-bs-target="#detailpared11"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h3 class="modal-title fs-5" id="productpared">Pared de espejo Natural 320 x 200 Biselado especial
+                  </h3>
+                  <p> Precio : $1.800.000 COP</p>
+                  <p>
+                  <h4>Detalles</h4>
+                  <br> Pared de espejo Natural con diseño especial y Pulido biselado, dando Amplitud y elegancia al
+                  producto.
+                  <br>Fabricamos sobre medidas Generales o especificas.
+                  <br>Dimensiones : 3.20 Mts Ancho x 2.0 Mts Largo.
+                  </p>
+                  <section class=" d-flex justify-content-center m-3">
+                    <span class=" d-flex">
+                      <p class=" w-25 my-auto mx-1">Color</p>
+                      <select class="form-select brcolor1 mx-3" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">Bronce</option>
+                        <option value="2">Natural\Plata</option>
+                        <option value="3">Gris</option>
+                        <option value="4">Rosa</option>
+                      </select>
+                      <p class="w-25 px-1 mx-1 my-auto">Cantidad</p>
+                      <input type="number" class="cantidad1 mx-3" min="0">
+                    </span>
+                  </section>
+                  <button type="button" class="btn btn-primary m-2">AÑADIR AL CARRITO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card px-0 col-4 crr6">
+        <div id="cardmesadetailIndicators6" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/nocheros3.jpeg" class="d-block w-100 rounded-top-2" width="25px" height="auto"
+                alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/nocheros2.jpeg" class="d-block w-100 rounded-top-2" width="25px" height="auto"
+                alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#cardmesadetailIndicators6"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cardmesadetailIndicators6"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Nocheros Olimpo Gris 0.70 Mts </h3>
+          <p class="card-text">$750.000 COP</p>
+          <!-- Button trigger modal -->
+          <button class="cssbuttons-io-button mt-4" data-bs-toggle="modal" data-bs-target="#productnocheros"> Ver más
+            <div class="iconBtnProdu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor"
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+              </svg>
+            </div>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="productnocheros" tabindex="-1" aria-labelledby="productnocheros"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="detailnocheros12" class="carousel slide detanocheros">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/img/nocheros3.jpeg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/nocheros2.jpeg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/nocheros3.jpeg" class="d-block w-100 rounded-top-2" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev corePrev" type="button" data-bs-target="#detailnocheros12"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next coreNext" type="button" data-bs-target="#detailnocheros12"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h3 class="modal-title fs-5" id="productnocheros">Nocheros Olimpo en espejo Gris 0.70 Mts </h3>
+                  <p> Precio : $1.600.000 COP</p>
+                  <p>
+                  <h4>Detalles</h4>
+                  <br>Juego de mesas de noche tipo Olimpo con sistema de cajones Push, Diseño sencillo que brinda
+                  elegancia y seriedad al espacio, enchape en espejo Gris e interiores pintados en gris con acabado
+                  mate.
+                  <br>Fabricamos sobre medidas Generales o especificas, puedes escoger el color de espejo de tu
+                  elección.
+                  <br>Dimensiones : 0.70 Mts Ancho x 0.60 Mts Largo x 0.60 Mts Fondo.
+                  </p>
+                  <section class=" d-flex justify-content-center m-3">
+                    <span class=" d-flex">
+                      <p class=" w-25 my-auto mx-1">Color</p>
+                      <select class="form-select brcolor1 mx-3" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">Bronce</option>
+                        <option value="2">Natural\Plata</option>
+                        <option value="3">Gris</option>
+                        <option value="4">Rosa</option>
+                      </select>
+                      <p class="w-25 px-1 mx-1 my-auto">Cantidad</p>
+                      <input type="number" class="cantidad1 mx-3" min="0">
+                    </span>
+                  </section>
+                  <button type="button" class="btn btn-primary m-2">AÑADIR AL CARRITO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      </section>
+  </div>
+  <section class="container-fluid px-lg-5 mb-5 px-sm-2">
+    <div class="row mt-5">
+      <div class="col-lg-5 col-sm-12 col-6">
+        <h1 class="mb-4">Cristales Rico</h1>
+        <p>Somos una empresa con mas de 10 años de experiencia dedicada al diseño de muebles en espejo para cualquier
+          zona del hogar, manejando una gran variedad de productos y diseños que se adaptan al espacio requerido.</p>
+        <p>Nuestro pincipal objetivo es brindar un producto terminado de excelente calidad y con precios accesibles a
+          todo el público.</p>
+        <p></p>
+      </div>
+      <div class="col-6 mt-3 ps-5">
+        <img src="assets/img/presentacion/imgquiensomos.jpg" class="rounded" alt="" width="600px" height="400px">
+      </div>
+    </div>
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <hr>
+      <section class="footer-about">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h3 class="mb-4">
+                <i class=""></i>Cristales Rico
+              </h3>
+              <section class="mt-4">
+                <div>
+                  <a href="https://www.facebook.com/Cristalesrico/?locale=es_LA" target="_blank" class="me-4 social">
+                    <i class="fa-brands fa-facebook fa-xl social-face"></i>
+                  </a>
+                  <a href="https://api.whatsapp.com/send/?phone=573014107542&text&type=phone_number&app_absent=0"
+                    target="_blank" class="me-4 social">
+                    <i class="fa-brands fa-whatsapp fa-xl social-whats"></i>
+                  </a>
+                  <a href="https://www.instagram.com/cristales_rico/?hl=es-la" target="_blank" class="me-4 social">
+                    <i class="fa-brands fa-instagram fa-xl social-insta"></i>
+                  </a>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h3 class="mb-4">
+                Productos
+              </h3>
+              <p>
+                <a href="#coreProductos" class="text-reset text-decoration-none">Cristales</a>
+              </p>
+              <p>
+                <a href="#coreProductos" class="text-reset text-decoration-none">Espejos</a>
+              </p>
+              <p>
+                <a href="#coreProductos" class="text-reset text-decoration-none">Enchapados</a>
+              </p>
+              <p>
+                <a href="#coreProductos" class="text-reset text-decoration-none">Paredes</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 contactoFooter">
+              <h3 class="mb-4">Contacto</h3>
+              <p><i class="fas fa-home me-3"></i><a href="https://goo.gl/maps/R1GuJPYPQMo6iS3K8" target="_blank"
+                  class="text-decoration-none">Cll 75 #54-55</a><iframe class="mt-2 ps-4"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5601233305215!2d-74.07732052577637!3d4.672223841905344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9afdd18faa81%3A0x6a593f520a1612be!2sCl.%2075%20%2354-55%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1689988183688!5m2!1ses!2sco"
+                  width="350" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                <a href="malito:cristales.rico5@gmail.com" class="text-decoration-none">cristales.rico5@gmail.com</a>
+              </p>
+              <p>
+                <i class="fas fa-phone me-3"></i>
+                <a href="tel:3014107542" class="text-decoration-none">301 410 7542</a> - <a href="tel:3114036988"
+                  class="text-decoration-none">311 403 6988</a>
+              </p>
+              <p>
+                <img src="assets/Iconos/form.svg" class="me-3" width="20px" height="20px" alt="">
+                <a data-bs-toggle="modal" data-bs-target="#exampleModalofcanva" data-bs-whatever="@mdo"
+                  class="text-decoration-none footerForm">Formulario contacto</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center mt-5 pt-5 footer-copyrigth border-top">
+        © 2023 Copyright:
+        <a class="text-decoration-none" href="#">Cristales Rico</a>
+      </div>
+    </footer>
+
+    <div class="offcanvas offcanvas-start hamburger" tabindex="-1" id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h3 class="offcanvas-title" id="offcanvasExampleLabel">Cristales Rico</h3>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body mt-5">
+        <div>
+          <hr>
+          <h3>Categorías</h3>
+          <ul class="text-decoration-none list-unstyled categoriasHamburger">
+            <a href="#" class="text-decoration-none text-white">
+              <li>Marcos</li>
+            </a>
+            <a href="#" class="text-decoration-none text-white">
+              <li>Mesa de centro</li>
+            </a>
+            <a href="#" class="text-decoration-none text-white">
+              <li>Recibidor</li>
+            </a>
+            <a href="#" class="text-decoration-none text-white">
+              <li>Pedestales</li>
+            </a>
+            <a href="#" class="text-decoration-none text-white">
+              <li>Nocheros</li>
+            </a>
+            <a href="#" class="text-decoration-none text-white">
+              <li>Paredes</li>
+            </a>
+          </ul>
+          <div class="pt-2">
+            <hr>
+          </div>
+          <div>
+            <ul class="text-decoration-none list-unstyled categoriasHamburger mt-5">
+              <li data-bs-toggle="modal" data-bs-target="#exampleModalofcanva" data-bs-whatever="@mdo"><i
+                  class="fa-solid fa-phone me-3"></i>Contactanos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModalofcanva" tabindex="-1" aria-labelledby="exampleModalofcanvaLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content w-100">
+          <div class="modal-header   px-3">
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="well well-sm">
+                      <form class="form-horizontal" method="post">
+                        <fieldset>
+                          <legend class="text-center header" id="exampleModalofcanvaLabel">
+                            <h3>Contacta con nosotros</h3>
+                          </legend>
+                          <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-12">
+                              <input id="fname" name="name" type="text" placeholder="Nombre Completo"
+                                class="form-control">
+                            </div>
+                          </div>
+
+
+                          <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i
+                                class="fa fa-envelope-o bigicon"></i></span>
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="col-md-12">
+                              <input id="email" name="email" type="text" placeholder="Dirección de correo"
+                                class="form-control">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i
+                                class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-12">
+                              <input id="phone" name="phone" type="text" placeholder="Telefono de contacto"
+                                class="form-control">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i
+                                class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-12">
+                              <textarea class="form-control" id="message" name="message"
+                                placeholder="¿Tienes alguna duda, consulta o sugerencia?" rows="7"></textarea>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+
+                          </div>
+                          <div class="modal-footer justify-content-center">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                          </div>
+
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
