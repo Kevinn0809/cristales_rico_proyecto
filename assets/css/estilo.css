@@ -399,3 +399,7 @@ footer {
 .cssbuttons-io-button:active .iconBtnRegister {
   transform: scale(0.95);
 }
+
+.Numpaginator a {
+  color: #000000;
+}
