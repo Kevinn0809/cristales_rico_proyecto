@@ -335,3 +335,9 @@ footer {
     height: 300px;
     border-bottom: #dee2e6 1px solid;  
 }
+
+.modal-content {
+  padding-left: 20px;
+  padding-right:  20px;
+  padding-bottom: 20px;
+}
