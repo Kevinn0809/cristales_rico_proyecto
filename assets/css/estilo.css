@@ -102,6 +102,24 @@ h4 {
   transform: scale(1.1);
 }
 
+.categoriasHomePeq {
+  margin: 0;
+  padding-left: 85px;
+  padding-right: 150px;
+}
+
+.prevLeftCategorias {
+  position: absolute;
+  left: -70px;
+  background-color: #000;
+}
+
+.prevLeftRigth {
+  position: absolute;
+  left: 70px;
+  background-color: #000;
+}
+
 .categoriasHome p {
   font-weight: 700;
 }

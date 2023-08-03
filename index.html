@@ -80,37 +80,87 @@
   </div>
   <div class="container">
     <div class="row">
-      <section class="categoriasHome mt-4 mb-1 d-flex justify-content-center align-items-center">
-        <div class="col-lg-2 col-sm-6 w-auto">
-          <img src="assets/img/categorias/espejos.png" class="mb-1" alt="Marcos">
-          <p class="ps-2 d-flex align-items-center">Marcos</p>
+      <div class="col-lg-12 ms-5 mt-3 categoriasHome categoriasHomePeq">
+        <div id="categoriasCarousel" class="carousel slide d-lg-none" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <!-- Productos para pantallas pequeñas (mostrar solo 3) -->
+                <div class="col-sm-4">
+                  <img src="assets/img/categorias/espejos.png" class="mb-1" alt="Marcos">
+                  <p class="ps-2 d-flex align-items-center">Marcos</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="assets/img/categorias/mesas.png" class="mb-1" alt="Mesas">
+                  <p class="ps-3 d-flex align-items-center">Mesas</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="assets/img/categorias/nocheros.png" class="mb-1" alt="Nocheros">
+                  <p class="d-flex align-items-center">Nocheros</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <!-- Productos para pantallas pequeñas (mostrar solo 3) -->
+                <div class="col-sm-4">
+                  <img src="assets/img/categorias/pedestales.png" class="mb-1" alt="Pedestales">
+                  <p class="d-flex align-items-center">Pedestales</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="assets/img/categorias/paredes.png" class="mb-1" alt="Paredes">
+                  <p class="ps-2 d-flex align-items-center">Paredes</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="assets/img/categorias/consola.png" class="mb-1" alt="Recibidor">
+                  <p class="ps-2 d-flex align-items-center" id="coreProductos">Recibidor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#categoriasCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon prevLeftCategorias" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#categoriasCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon prevLeftRigth" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="col-lg-2 col-sm-6 w-auto">
-          <img src="assets/img/categorias/mesas.png" class="mb-1" alt="Mesas">
-          <p class="ps-3 d-flex align-items-center">Mesas</p>
+  
+        <div class="row d-none categoriasHome d-lg-flex">
+          <!-- Productos para pantallas grandes (mostrar todos) -->
+          <div class="col-lg-2">
+            <img src="assets/img/categorias/espejos.png" class="mb-1" alt="Marcos">
+            <p class="ps-2 d-flex align-items-center">Marcos</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/img/categorias/mesas.png" class="mb-1" alt="Mesas">
+            <p class="ps-3 d-flex align-items-center">Mesas</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/img/categorias/nocheros.png" class="mb-1" alt="Nocheros">
+            <p class="d-flex align-items-center">Nocheros</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/img/categorias/pedestales.png" class="mb-1" alt="Pedestales">
+            <p class="d-flex align-items-center">Pedestales</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/img/categorias/paredes.png" class="mb-1" alt="Paredes">
+            <p class="ps-2 d-flex align-items-center">Paredes</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/img/categorias/consola.png" class="mb-1" alt="Recibidor">
+            <p class="ps-2 d-flex align-items-center" id="coreProductos">Recibidor</p>
+          </div>
         </div>
-        <div class="col-lg-2 col-sm-6 w-auto">
-          <img src="assets/img/categorias/nocheros.png" class="mb-1" alt="Nocheros">
-          <p class="d-flex align-items-center">Nocheros</p>
-        </div>
-        <div class="col-lg-2 col-sm-6 w-auto">
-          <img src="assets/img/categorias/pedestales.png" class="mb-1" alt="Pedestales">
-          <p class="d-flex align-items-center">Pedestales</p>
-        </div>
-        <div class="col-lg-2 col-sm-6 w-auto">
-          <img src="assets/img/categorias/paredes.png" class="mb-1" alt="Paredes">
-          <p class="ps-2 d-flex align-items-center">Paredes</p>
-        </div>
-        <div class="col-lg-2 col-sm-6 w-auto">
-          <img src="assets/img/categorias/consola.png" class="mb-1" alt="Recibidor">
-          <p class="ps-2 d-flex align-items-center" id="coreProductos">Recibidor</p>
-        </div>
-      </section>
+      </div>
     </div>
   </div>
   <div class="container">
     <sec class="productcor row justify-content-evenly h-100">
-      <div class="card px-0 col-4 crr1">
+      <div class="card px-0 col-4 col-md-4 col-lg-4 col-xl-4 col-xl-3 crr1">
         <div id="cardmesadetail" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -210,7 +260,7 @@
         </div>
       </div>
 
-      <div class="card px-0 col-4 crr2">
+      <div class="card px-0 col-4 col-md-4 col-lg-4 col-xl-4 col-xl-3 crr2">
         <div id="cardmesadetail2" class="carousel slide">
           <div class="carousel-inner ">
             <div class="carousel-item active">
@@ -321,7 +371,7 @@
         </div>
       </div>
 
-      <div class="card px-0 col-4 crr3">
+      <div class="card px-0 col-4 col-md-4 col-lg-4 col-xl-4 col-xl-3 crr3">
         <div id="cardmesadetailIndicators3" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -423,7 +473,7 @@
           <small class="text-body-secondary">Last updated 3 mins ago</small>
         </div>
       </div>
-      <div class="card px-0 col-4 crr4">
+      <div class="card px-0 col-4 col-md-4 col-lg-4 col-xl-4 col-xl-3 crr4">
         <div id="cardmesadetailIndicators4" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -525,7 +575,7 @@
           <small class="text-body-secondary">Last updated 3 mins ago</small>
         </div>
       </div>
-      <div class="card px-0 col-4 crr5">
+      <div class="card px-0 col-4 col-md-4 col-lg-4 col-xl-4 col-xl-3 crr5">
         <div id="cardmesadetailIndicators5" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -627,7 +677,7 @@
           <small class="text-body-secondary">Last updated 3 mins ago</small>
         </div>
       </div>
-      <div class="card px-0 col-4 crr6">
+      <div class="card px-0 col-4 col-md-4 col-lg-4 col-xl-4 col-xl-3 crr6">
         <div id="cardmesadetailIndicators6" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -749,21 +799,22 @@
     </nav>
   </section>
 
-  <section class="container-fluid px-lg-5 mb-5 px-sm-2">
+  <section class="container">
     <div class="row mt-5">
-      <div class="col-lg-5 col-sm-12 col-6">
+      <!-- Columna para pantallas grandes -->
+      <div class="col-lg-6">
         <h1 class="mb-4">Cristales Rico</h1>
-        <p>Somos una empresa con mas de 10 años de experiencia dedicada al diseño de muebles en espejo para cualquier
-          zona del hogar, manejando una gran variedad de productos y diseños que se adaptan al espacio requerido.</p>
-        <p>Nuestro pincipal objetivo es brindar un producto terminado de excelente calidad y con precios accesibles a
-          todo el público.</p>
+        <p>Somos una empresa con más de 10 años de experiencia dedicada al diseño de muebles en espejo para cualquier zona del hogar, manejando una gran variedad de productos y diseños que se adaptan al espacio requerido.</p>
+        <p>Nuestro principal objetivo es brindar un producto terminado de excelente calidad y con precios accesibles a todo el público.</p>
         <p></p>
       </div>
-      <div class="col-6 mt-3 ps-5">
-        <img src="assets/img/presentacion/imgquiensomos.jpg" class="rounded" alt="" width="600px" height="400px">
+  
+      <!-- Columna para pantallas pequeñas -->
+      <div class="col-lg-6 col-md-6 mt-3">
+        <img src="assets/img/presentacion/imgquiensomos.jpg" class="rounded img-fluid" alt="" width="600px" height="400px">
       </div>
     </div>
-
+  </section>
     <footer class="text-center text-lg-start bg-white text-muted">
       <hr>
       <section class="footer-about">
@@ -958,7 +1009,7 @@
     </div>
 
 <!-- Modal -->
-<div class="modal fade colornav px-3" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel"
+<div class="modal fade px-3" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel"
 aria-hidden="true">
 <div class="modal-dialog">
     <div class="modal-content">
